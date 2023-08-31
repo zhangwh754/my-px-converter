@@ -8,3 +8,5 @@ One vscode extension of fast transforming "px" to "Px" and add annotation to avo
 
 > Making the line active and using command "convertPxToPx"
 
+- Support intellisense
+  - `px` -> `Px` (default Shortcut key: `Alt + q`)

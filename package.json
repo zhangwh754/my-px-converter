@@ -1,13 +1,20 @@
 {
   "name": "my-px-converter",
-  "displayName": "my-px-converter",
-  "description": "",
+  "displayName": "px-converter",
+  "description": "Converts between px to Px and add comments",
   "version": "0.0.1",
+  "icon": "icon.png",
+  "license": "MIT",
+  "licenseUrl": "LICENSE",
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
-    "Other"
+    "Formatters"
+  ],
+  "keywords": [
+    "Px",
+    "px to Px"
   ],
   "repository": "https://github.com/zhangwh754/my-px-converter",
   "activationEvents": [],
@@ -15,12 +22,19 @@
   "contributes": {
     "commands": [
       {
-        "command": "my-px-converter.convertPxToPx",
-        "title": "convertPxToPx: 转换px为Px convert px to Px"
+        "command": "extension.convertPxToPx",
+        "title": "convertPxToPx: px to Px"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "extension.cssrem.rem-switch-px",
+        "key": "Alt+p"
       }
     ]
   },
   "scripts": {
+    "build": "npx vsce package",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
