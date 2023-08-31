@@ -28,8 +28,8 @@
     ],
     "keybindings": [
       {
-        "command": "extension.cssrem.rem-switch-px",
-        "key": "Alt+p"
+        "command": "extension.convertPxToPx",
+        "key": "Alt+q+p"
       }
     ]
   },

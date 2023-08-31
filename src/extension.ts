@@ -11,7 +11,7 @@ function getIndentation(text: string) {
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    "extension.cssrem.rem-switch-px",
+    "extension.convertPxToPx",
     () => {
       const editor = vscode.window.activeTextEditor;
       if (!editor) {
