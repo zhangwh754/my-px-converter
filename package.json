@@ -9,6 +9,7 @@
   "categories": [
     "Other"
   ],
+  "repository": "https://github.com/zhangwh754/my-px-converter",
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
