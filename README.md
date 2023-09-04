@@ -13,5 +13,5 @@ Open the extension module in the sidebar of vscode, then install by the more opt
 > Making the line active and using command "convertPxToPx"
 
 - Support intellisense
-  - `px` -> `Px` (default Shortcut key: `Alt + p + x`)
+  - `px` -> `Px` (default Shortcut key: `Alt+P`)
 
