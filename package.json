@@ -2,7 +2,7 @@
   "name": "my-px-converter",
   "displayName": "px-converter",
   "description": "Converts between px to Px and add comments",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "icon": "icon.png",
   "license": "MIT",
   "licenseUrl": "LICENSE",
@@ -29,7 +29,7 @@
     "keybindings": [
       {
         "command": "extension.convertPxToPx",
-        "key": "Alt+q+p"
+        "key": "Alt+p+x"
       }
     ]
   },
